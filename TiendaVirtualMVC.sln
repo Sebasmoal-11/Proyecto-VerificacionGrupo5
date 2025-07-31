@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitaria1", "PruebaUn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitaria2", "PruebaUnitaria2\PruebaUnitaria2.csproj", "{EE6C9320-7701-41A0-A022-5DC19F0A81B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pruebas_Unitarias", "Pruebas_Unitarias", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA2D02D4-AA97-4C45-BD96-F09B53267E03} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EE6C9320-7701-41A0-A022-5DC19F0A81B0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B64CDEA-D1B3-4753-9E0C-7DA85EA61AC2}
