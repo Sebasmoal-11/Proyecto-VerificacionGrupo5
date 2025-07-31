@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaVirtualMVC", "WebAppl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitaria1", "PruebaUnitaria1\PruebaUnitaria1.csproj", "{AA2D02D4-AA97-4C45-BD96-F09B53267E03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitaria2", "PruebaUnitaria2\PruebaUnitaria2.csproj", "{EE6C9320-7701-41A0-A022-5DC19F0A81B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AA2D02D4-AA97-4C45-BD96-F09B53267E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA2D02D4-AA97-4C45-BD96-F09B53267E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2D02D4-AA97-4C45-BD96-F09B53267E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6C9320-7701-41A0-A022-5DC19F0A81B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6C9320-7701-41A0-A022-5DC19F0A81B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6C9320-7701-41A0-A022-5DC19F0A81B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6C9320-7701-41A0-A022-5DC19F0A81B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
