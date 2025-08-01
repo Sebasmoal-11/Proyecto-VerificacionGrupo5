@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitaria2", "PruebaUn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pruebas_Unitarias", "Pruebas_Unitarias", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasUnitarias.UnitTests", "PruebasUnitarias.UnitTests\PruebasUnitarias.UnitTests.csproj", "{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{EE6C9320-7701-41A0-A022-5DC19F0A81B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE6C9320-7701-41A0-A022-5DC19F0A81B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE6C9320-7701-41A0-A022-5DC19F0A81B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
