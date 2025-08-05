@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace PruebasUnitarias.UnitTests.Home
 {
     internal class Class1
-    {
+    {           // hola 
     }
 }
