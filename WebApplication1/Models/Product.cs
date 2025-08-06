@@ -4,6 +4,8 @@ namespace TiendaVirtualMVC.Models
 {
     public class Product
     {
+        public int Id { get; set; } //agregado para la prueba de carga 9
+
         [Required(ErrorMessage = "El nombre es obligatorio")]
         public string Name { get; set; }
 
