@@ -5,9 +5,9 @@ VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaVirtualMVC", "WebApplication1\TiendaVirtualMVC.csproj", "{0071B763-35A1-42FF-A8E8-4881BA4FD9F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pruebas_Unitarias", "Pruebas_Unitarias", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasUnitarias.UnitTests", "PruebasUnitarias.UnitTests\PruebasUnitarias.UnitTests.csproj", "{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.TestAutomatizadas", "Selenium.TestAutomatizadas\Selenium.TestAutomatizadas.csproj", "{AC260FD1-C8E6-486D-B6FC-E108A89BB770}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +23,13 @@ Global
 		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC260FD1-C8E6-486D-B6FC-E108A89BB770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC260FD1-C8E6-486D-B6FC-E108A89BB770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC260FD1-C8E6-486D-B6FC-E108A89BB770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC260FD1-C8E6-486D-B6FC-E108A89BB770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D86F10E8-0CDE-47DA-A668-49D7C952AAA7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B64CDEA-D1B3-4753-9E0C-7DA85EA61AC2}
