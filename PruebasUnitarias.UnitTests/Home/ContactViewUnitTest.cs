@@ -8,7 +8,7 @@ namespace PruebasUnitarias.UnitTests.Home
     public class ContactViewUnitTest
     {
         [TestMethod]
-        [TestCategory("Verificar que el método Contact devuelva la vista correcta")] //Requerimiento 10
+        [TestCategory("Verificar que el método Contact devuelva la vista correcta")] //Requerimiento 10 
 
         public void ContactRetornaVistaCorrecta_EsCorrecta() 
         {
