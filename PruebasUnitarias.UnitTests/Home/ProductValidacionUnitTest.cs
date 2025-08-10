@@ -30,7 +30,7 @@ namespace PruebasUnitarias.UnitTests.ProductControllerTests
             Assert.IsInstanceOfType(resultado, typeof(RedirectToActionResult));
 
             var redirectResult = resultado as RedirectToActionResult;
-            Assert.AreEqual("Index", redirectResult.ActionName);
+            Assert.AreEqual("Index",redirectResult.ActionName);
         }
     }
 }

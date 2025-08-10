@@ -1,4 +1,6 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace Selenium.TestAutomatizadas.Pages
 {
@@ -62,5 +64,33 @@ namespace Selenium.TestAutomatizadas.Pages
         {
             BotonAgregar.Click();
         }
+        // GoToCreate(): usa tu flujo existente (index -> click "Agregar Producto")
+        public void GoToCreate(string urlBase)
+        {
+            if (string.IsNullOrWhiteSpace(urlBase))
+                throw new ArgumentException("urlBase no puede ser nula o vacía.", nameof(urlBase));
+
+            IrAIndex(urlBase);
+            ClickAgregarProducto();
+
+            // espera a que cargue el formulario
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(8));
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("productName")));
+        }
+
+        // CreateProduct(): envuelve tus métodos + espera a que vuelva al listado
+        public void CreateProduct(string name, decimal price, string description)
+        {
+            CompletarFormulario(name, description, price.ToString("0.00"));
+            EnviarFormularioProducto();
+
+            // espera redirección o la aparición del contenedor de lista
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(8));
+            wait.Until(d =>
+                d.Url.Contains("products", StringComparison.OrdinalIgnoreCase) ||
+                d.FindElements(By.CssSelector("#productsList, .products, table#grid-products")).Count > 0
+            );
+        }
     }
 }
+
