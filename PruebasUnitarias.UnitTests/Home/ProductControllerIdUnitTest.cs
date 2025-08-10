@@ -19,13 +19,13 @@ namespace PruebasUnitarias.UnitTests.ProductControllerTests
         {
             // Arrange: se crea el controlador y dos productos de prueba
             var controller = new ProductController();
-            var producto1 = new Product
+            var producto1 = new TiendaVirtualMVC.Models.Product
             {
                 Name = "Producto 1",
                 Description = "Primer producto",
                 Price = 10m
             };
-            var producto2 = new Product
+            var producto2 = new TiendaVirtualMVC.Models.Product
             {
                 Name = "Producto 2",
                 Description = "Segundo producto",

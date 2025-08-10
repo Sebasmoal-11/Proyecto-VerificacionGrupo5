@@ -24,7 +24,7 @@ namespace PruebasUnitarias.UnitTests.Home
         public void PrecioNegativo_EsNoValido()
         {
             // Arrange: se crea un producto con un precio negativo
-            var producto = new Product
+            var producto = new TiendaVirtualMVC.Models.Product
             {
                 Name = "Producto de prueba",
                 Description = "Descripción corta",
@@ -51,7 +51,7 @@ namespace PruebasUnitarias.UnitTests.Home
         public void NombreVacio_EsNoValido()
         {
             // Arrange: se crea un producto sin nombre
-            var producto = new Product
+            var producto = new TiendaVirtualMVC.Models.Product
             {
                 Name = string.Empty,
                 Description = "Tiene descripción",
@@ -79,7 +79,7 @@ namespace PruebasUnitarias.UnitTests.Home
         {
             // Arrange: se crea una descripción de más de 500 caracteres
             var descripcionLarga = new string('A', 501);
-            var producto = new Product
+            var producto = new TiendaVirtualMVC.Models.Product
             {
                 Name = "Nombre válido",
                 Description = descripcionLarga,

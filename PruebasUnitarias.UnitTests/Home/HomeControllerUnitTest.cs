@@ -28,7 +28,7 @@ namespace PruebasUnitarias.UnitTests.Home
             // y que su modelo es una lista de productos
             var vista = resultado as ViewResult;
             Assert.IsNotNull(vista, "Index debería retornar un objeto ViewResult");
-            var modelo = vista?.Model as List<Product>;
+            var modelo = vista?.Model as List<TiendaVirtualMVC.Models.Product>;
             Assert.IsNotNull(modelo, "El modelo devuelto por Index debería ser una lista de productos.");
         }
     }

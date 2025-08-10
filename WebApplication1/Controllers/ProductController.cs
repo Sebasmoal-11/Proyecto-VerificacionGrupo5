@@ -28,7 +28,7 @@ namespace TiendaVirtualMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Aquí podrías guardar el producto en una lista o base de datos
+                products.Add(product); // Aquí podrías guardar el producto en una lista o base de datos
                 return RedirectToAction("Index");
             }
 
