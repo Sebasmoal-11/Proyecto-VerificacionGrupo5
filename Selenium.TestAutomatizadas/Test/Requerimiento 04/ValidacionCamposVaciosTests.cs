@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using Selenium.TestAutomatizadas;
 using Selenium.TestAutomatizadas.Pages;  // Aquí se importa la carpeta Pages donde está ContactoPage
 
 namespace Selenium.TestAutomatizadas.Test.Caso01_Home
@@ -37,3 +38,4 @@ namespace Selenium.TestAutomatizadas.Test.Caso01_Home
         }
     }
 }
+PruebaCargaCo
