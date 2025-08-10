@@ -8,5 +8,6 @@ namespace Selenium.TestAutomatizadas
 {
     internal class PruebaCargaContactoPage
     {
+        //mensaje
     }
 }
